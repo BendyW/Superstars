@@ -2,8 +2,10 @@ require 'sinatra/base'
 
 require './controllers/application_controller'
 require './controllers/superstar_controller'
+require './controllers/fairytale_controller'
 
 require './models/superstar'
+require './models/fairytale'
 
 map('/'){ run ApplicationController}
 map('/api/superstars'){ run SuperstarController}

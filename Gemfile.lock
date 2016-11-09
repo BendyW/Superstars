@@ -19,6 +19,7 @@ GEM
     json (2.0.2)
     method_source (0.8.2)
     minitest (5.8.3)
+    mysql (2.9.1)
     mysql2 (0.4.5)
     pry (0.10.4)
       coderay (~> 1.1.0)
@@ -45,6 +46,7 @@ PLATFORMS
 
 DEPENDENCIES
   json
+  mysql
   mysql2
   pry
   sinatra
